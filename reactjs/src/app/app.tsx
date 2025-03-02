@@ -1,11 +1,10 @@
-// Uncomment this line to use CSS modules
-// import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import styles from './app.module.css';
+import DashBoard from '../components/dashboard';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="reactjs" />
+    <div style={styles}>
+      <DashBoard />
     </div>
   );
 }
